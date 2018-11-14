@@ -5,4 +5,5 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h1>Hakkimizda Sayfamiz ...</h1>
+    <h2>çok yakında gelecek...</h2>
 </asp:Content>
