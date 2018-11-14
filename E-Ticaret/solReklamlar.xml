@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/images/icons/bann1.jpg</ImageUrl>
+    <NavigateUrl>~/Default.aspx</NavigateUrl>
+    <Impressions> 50 </Impressions>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>~/images/icons/bann2.jpg</ImageUrl>
+    <NavigateUrl>~/Default.aspx</NavigateUrl>
+    <Impressions> 50 </Impressions>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>~/images/icons/cakie.jpg</ImageUrl>
+    <NavigateUrl>~/Default.aspx</NavigateUrl>
+    <Impressions> 50 </Impressions>
+  </Ad>
+</Advertisements>

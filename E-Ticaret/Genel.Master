@@ -1,0 +1,261 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Genel.master.cs" Inherits="E_Ticaret.Genel" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+    <title>- Electronix Store / E-Ticaret Sitemize Hosgeldiniz ... - </title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+
+    <%--dosya yoluna dikkat / .css icindeki yollar da "../images" olarak degistirilmeli ... !--%>
+    <link rel="stylesheet" type="text/css" href="Script/style.css" />
+    <!--[if IE 6]>
+<link rel="stylesheet" type="text/css" href="Script/iecss.css" />
+<![endif]-->
+
+    <%--dosya yoluna dikkat !--%>
+    <script type="text/javascript" src="Script/js/boxOver.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<%--body'i komple kopyaladik ve giydiriyoruz ...--%>
+<body>
+    <form id="form1" runat="server">
+        <div id="main_container">
+            <div class="top_bar">
+
+                <div class="top_search">
+                    <div class="search_text">
+                        <a href="#">Advanced Search</a>
+                    </div>
+                    <%--  <input type="text" class="search_input" name="search" />--%>
+
+                    <asp:TextBox ID="txtArananDeger" runat="server" class="search_input"></asp:TextBox>
+
+                    <%--   <input type="image" src="images/icons/search.gif" class="search_bt" />--%>
+
+                    <%--tum Master yollari -> ~/images/icons olarak degismeli !!!--%>
+
+                    <asp:ImageButton ID="imgSearch" runat="server" class="search_bt" ImageUrl="~/images/icons/search.gif" OnClick="imgSearch_Click" />
+                </div>
+
+                <div class="languages">
+                    <div class="lang_text">
+                        Languages:
+                    </div>
+                    <a href="#" class="lang">
+                        <img src="images/icons/en.gif" alt="" title="" border="0" /></a> <a href="#" class="lang">
+                            <img src="images/icons/de.gif" alt="" title="" border="0" /></a>
+                </div>
+            </div>
+            <div id="header">
+                <div id="logo">
+                    <a href="Default.aspx">
+                        <img src="images/icons/logo.png" alt="" title="" border="0" width="237" height="140" /></a>
+                </div>
+                <div class="oferte_content">
+                    <div class="top_divider">
+                        <img src="images/icons/header_divider.png" alt="" title="" width="1" height="164" />
+                    </div>
+
+                    <div class="top_divider">
+                        <img src="images/icons/header_divider.png" alt="" title="" width="1" height="164" />
+                    </div>
+                </div>
+                <!-- end of oferte_content-->
+            </div>
+            <div id="main_content">
+                <div id="menu_tab">
+                    <div class="left_menu_corner">
+                    </div>
+                    <ul class="menu">
+
+                        <li><a href="Default.aspx" class="nav1">ANASAYFA </a></li>
+                        <li class="divider"></li>
+
+                        <li><a href="Products.aspx" class="nav2">URUNLER</a></li>
+                        <li class="divider"></li>
+
+                        <%--<li><a href="#" class="nav3">KAMPANYALI URUNLER</a></li>
+                        <li class="divider"></li>
+
+                        <li><a href="#" class="nav4">HESABIM</a></li>
+                        <li class="divider"></li>--%>
+
+                        <li><a href="MyCart.aspx" class="nav5">SEPETIM </a></li>
+                        <li class="divider"></li>
+
+                        <li><a href="#" class="nav4">LOGIN</a></li>
+                        <li class="divider"></li>                        
+
+                        <li><a href="Contact.aspx" class="nav6">ILETISIM</a></li>
+                        <li class="divider"></li>
+                    </ul>
+                    <div class="right_menu_corner">
+                    </div>
+                </div>
+                <!-- end of menu tab -->
+
+                <div class="crumb_navigation">
+                    <asp:LinkButton ID="lbtUrunKarsilastirma" runat="server" OnClick="lbtUrunKarsilastirma_Click">Karsilastirmak Istediginiz Urunleri Gormek Icin Tiklayiniz !!! </asp:LinkButton>
+                </div>
+
+                <div class="left_content">
+                    <div class="title_box">
+                        Kategoriler
+                    </div>
+
+                    <ul class="left_menu">
+                        <asp:Repeater ID="rptCategories" runat="server" DataSourceID="ETicaret">
+
+                            <%--<li class="odd"><a href="services.html">Processors</a></li>--%>
+                            <ItemTemplate>
+                                <li class="odd">
+                                    <a href='<%# ResolveClientUrl("~/Products.aspx?CategoryId=" + Eval("CategoryID").ToString()) %>'>
+                                        <%# Eval("CategoryName") %>
+                                    </a>
+                                </li>
+                            </ItemTemplate>
+
+                            <%--  <li class="even"><a href="services.html">Motherboards</a></li>   --%>
+                            <AlternatingItemTemplate>
+                                <li class="even">
+                                    <a href='<%# ResolveClientUrl("~/Products.aspx?CategoryId=" + Eval("CategoryID").ToString()) %>'>
+                                        <%# Eval("CategoryName") %>
+                                    </a>
+                                </li>
+                            </AlternatingItemTemplate>
+                        </asp:Repeater>
+
+                        <asp:SqlDataSource ID="ETicaret" runat="server" ConnectionString="<%$ ConnectionStrings:ETicaretDBConnectionString %>" SelectCommand="SELECT * FROM [Categories]"></asp:SqlDataSource>
+                    </ul>
+
+                    <div class="title_box">
+                        Kampanyali Urunler
+                    </div>
+                    <div class="border_box">
+                        <div class="product_title">
+                            <a href="details.html">Motorola 156 MX-VL</a>
+                        </div>
+                        <div class="product_img">
+                            <a href="details.html">
+                                <img src="images/icons/laptop.png" alt="" title="" border="0" /></a>
+                        </div>
+                        <div class="prod_price">
+                            <span class="reduce">350$</span> <span class="price">270$</span>
+                        </div>
+                    </div>
+                    <div class="title_box">
+                        Kullanici Paneli
+                    </div>
+                    <div class="border_box">
+                        <input type="text" name="newsletter" class="newsletter_input" value="your email" />
+                        <a href="#" class="join">join</a>
+                    </div>
+
+                    <div class="banner_adds">
+                        <a href="#">
+                            <%--<img src="images/icons/bann2.jpg" alt="" title="" border="0" />--%>
+
+                            <asp:AdRotator ID="AdRotatorSolReklam" runat="server" AdvertisementFile="~/solReklamlar.xml" Height="125px" Width="125px" />
+
+                        </a>
+                    </div>
+                </div>
+                <!-- end of left content -->
+                <div class="center_content">
+
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+
+                </div>
+                <!-- end of center content -->
+                <div class="right_content">
+                    <div class="shopping_cart">
+                        <div class="cart_title">
+                            Sepetteki Urunler
+                        </div>
+
+                        <div class="cart_details">
+                            <%= ProductQuantity.ToString() %> Urun
+                        <br />
+
+                            <span class="border_cart"></span>Toplam :  
+                            
+                            <span class="price">
+                                <%=  TotalPrice.ToString()%> TL
+                            </span>
+                        </div>
+
+                        <div class="cart_icon">
+                            <a href="MyCart.aspx" title="header=[Checkout] body=[&nbsp;] fade=[on]">
+                                <img src="images/icons/shoppingcart.png" alt="" title="" width="48" height="48" border="0" /></a>
+                        </div>
+                    </div>
+                    <div class="title_box">
+                        Yeni Urun
+                    </div>
+                    <div class="border_box">
+                        <div class="product_title">
+                            <a href="details.html">Motorola 156 MX-VL</a>
+                        </div>
+                        <div class="product_img">
+                            <a href="details.html">
+                                <img src="images/icons/p2.gif" alt="" title="" border="0" /></a>
+                        </div>
+                        <div class="prod_price">
+                            <span class="reduce">350$</span> <span class="price">270$</span>
+                        </div>
+                    </div>
+                    <div class="title_box">
+                        Markalar
+                    </div>
+                    <ul class="left_menu">
+                        <li class="odd"><a href="services.html">Sony</a></li>
+                        <li class="even"><a href="services.html">Samsung</a></li>
+                        <li class="odd"><a href="services.html">Daewoo</a></li>
+                        <li class="even"><a href="services.html">LG</a></li>
+                        <li class="odd"><a href="services.html">Fujitsu Siemens</a></li>
+                        <li class="even"><a href="services.html">Motorola</a></li>
+                        <li class="odd"><a href="services.html">Phillips</a></li>
+                        <li class="even"><a href="services.html">Beko</a></li>
+                    </ul>
+                    <div class="banner_adds">
+                        <a href="#">
+                            <%--<img src="images/icons/bann1.jpg" alt="" title="" border="0" />--%>
+
+                            <%--II.yol --%>
+
+                            <asp:AdRotator ID="AdRotatorSagReklam" runat="server" Height="170px" Width="125px" DataSourceID="ReklamSagdaki" />
+
+                            <asp:XmlDataSource ID="ReklamSagdaki" runat="server" DataFile="~/sagReklamlar.xml"></asp:XmlDataSource>
+
+                        </a>
+                    </div>
+                </div>
+                <!-- end of right content -->
+            </div>
+            <!-- end of main content -->
+            <div class="footer">
+                <div class="left_footer">
+                    <img src="images/icons/footer_logo.png" alt="" title="" width="170" height="49" />
+                </div>
+                <div class="center_footer">
+                    Template name. All Rights Reserved 2018 @Wissen Akademie<br />
+                    <a href="http://csscreme.com/freecsstemplates/" title="free templates">
+                        <img src="images/icons/csscreme.jpg" alt="free templates" title="free templates" border="0" /></a><br />
+                    <img src="images/icons/payment.gif" alt="" title="" />
+                </div>
+                <div class="right_footer">
+                    <a href="Default.aspx">Anasayfa&nbsp;|&nbsp;<a href="Hakkimizda.aspx">Hakkimizda </a>&nbsp;|&nbsp;<a href="Contact.aspx">Iletisim</a>
+                </div>
+            </div>
+        </div>
+        <!-- end of main_container -->
+    </form>
+</body>
+</html>

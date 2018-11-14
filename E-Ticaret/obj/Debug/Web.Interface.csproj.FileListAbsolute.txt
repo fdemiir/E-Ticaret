@@ -1,0 +1,46 @@
+C:\Users\302 Akşam\Desktop\E-Ticaret\E-Ticaret\bin\roslyn\csc.exe
+C:\Users\302 Akşam\Desktop\E-Ticaret\E-Ticaret\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\302 Akşam\Desktop\E-Ticaret\E-Ticaret\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\302 Akşam\Desktop\E-Ticaret\E-Ticaret\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\302 Akşam\Desktop\E-Ticaret\E-Ticaret\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\302 Akşam\Desktop\E-Ticaret\E-Ticaret\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\302 Akşam\Desktop\E-Ticaret\E-Ticaret\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\302 Akşam\Desktop\E-Ticaret\E-Ticaret\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\302 Akşam\Desktop\E-Ticaret\E-Ticaret\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\302 Akşam\Desktop\E-Ticaret\E-Ticaret\bin\roslyn\vbc.exe
+C:\Users\302 Akşam\Desktop\E-Ticaret\E-Ticaret\bin\roslyn\VBCSCompiler.exe
+C:\Users\302 Akşam\Desktop\E-Ticaret\E-Ticaret\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\302 Akşam\Desktop\E-Ticaret\E-Ticaret\bin\E-Ticaret.dll.config
+C:\Users\302 Akşam\Desktop\E-Ticaret\E-Ticaret\bin\E-Ticaret.dll
+C:\Users\302 Akşam\Desktop\E-Ticaret\E-Ticaret\bin\E-Ticaret.pdb
+C:\Users\302 Akşam\Desktop\E-Ticaret\E-Ticaret\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\302 Akşam\Desktop\E-Ticaret\E-Ticaret\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\302 Akşam\Desktop\E-Ticaret\E-Ticaret\obj\Debug\Web.Interface.csprojResolveAssemblyReference.cache
+C:\Users\302 Akşam\Desktop\E-Ticaret\E-Ticaret\obj\Debug\E-Ticaret.dll
+C:\Users\302 Akşam\Desktop\E-Ticaret\E-Ticaret\obj\Debug\E-Ticaret.pdb
+C:\Users\302 Akşam\Desktop\E-Ticaret\E-Ticaret\bin\Web.Library.dll
+C:\Users\302 Akşam\Desktop\E-Ticaret\E-Ticaret\bin\Web.Library.pdb
+C:\Users\ghost\Downloads\E-Ticaret\E-Ticaret\bin\roslyn\csc.exe
+C:\Users\ghost\Downloads\E-Ticaret\E-Ticaret\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ghost\Downloads\E-Ticaret\E-Ticaret\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ghost\Downloads\E-Ticaret\E-Ticaret\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ghost\Downloads\E-Ticaret\E-Ticaret\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ghost\Downloads\E-Ticaret\E-Ticaret\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ghost\Downloads\E-Ticaret\E-Ticaret\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ghost\Downloads\E-Ticaret\E-Ticaret\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ghost\Downloads\E-Ticaret\E-Ticaret\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ghost\Downloads\E-Ticaret\E-Ticaret\bin\roslyn\vbc.exe
+C:\Users\ghost\Downloads\E-Ticaret\E-Ticaret\bin\roslyn\VBCSCompiler.exe
+C:\Users\ghost\Downloads\E-Ticaret\E-Ticaret\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ghost\Downloads\E-Ticaret\E-Ticaret\bin\E-Ticaret.dll.config
+C:\Users\ghost\Downloads\E-Ticaret\E-Ticaret\bin\E-Ticaret.dll
+C:\Users\ghost\Downloads\E-Ticaret\E-Ticaret\bin\E-Ticaret.pdb
+C:\Users\ghost\Downloads\E-Ticaret\E-Ticaret\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ghost\Downloads\E-Ticaret\E-Ticaret\bin\Web.Library.dll
+C:\Users\ghost\Downloads\E-Ticaret\E-Ticaret\bin\Web.Library.pdb
+C:\Users\ghost\Downloads\E-Ticaret\E-Ticaret\bin\Web.Library.dll.config
+C:\Users\ghost\Downloads\E-Ticaret\E-Ticaret\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ghost\Downloads\E-Ticaret\E-Ticaret\obj\Debug\Web.Interface.csprojResolveAssemblyReference.cache
+C:\Users\ghost\Downloads\E-Ticaret\E-Ticaret\obj\Debug\Web.Interface.csproj.CoreCompileInputs.cache
+C:\Users\ghost\Downloads\E-Ticaret\E-Ticaret\obj\Debug\E-Ticaret.dll
+C:\Users\ghost\Downloads\E-Ticaret\E-Ticaret\obj\Debug\E-Ticaret.pdb

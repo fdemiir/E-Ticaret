@@ -1,0 +1,13 @@
+C:\Users\302 Akşam\Desktop\E-Ticaret\Web.Library\bin\Debug\Web.Library.dll
+C:\Users\302 Akşam\Desktop\E-Ticaret\Web.Library\bin\Debug\Web.Library.pdb
+C:\Users\302 Akşam\Desktop\E-Ticaret\Web.Library\obj\Debug\Web.Library.csprojResolveAssemblyReference.cache
+C:\Users\302 Akşam\Desktop\E-Ticaret\Web.Library\obj\Debug\Web.Library.dll
+C:\Users\302 Akşam\Desktop\E-Ticaret\Web.Library\obj\Debug\Web.Library.pdb
+C:\Users\302 Akşam\Desktop\E-Ticaret\Web.Library\bin\Debug\Web.Library.dll.config
+C:\Users\ghost\Downloads\E-Ticaret\Web.Library\bin\Debug\Web.Library.dll.config
+C:\Users\ghost\Downloads\E-Ticaret\Web.Library\bin\Debug\Web.Library.dll
+C:\Users\ghost\Downloads\E-Ticaret\Web.Library\bin\Debug\Web.Library.pdb
+C:\Users\ghost\Downloads\E-Ticaret\Web.Library\obj\Debug\Web.Library.csprojResolveAssemblyReference.cache
+C:\Users\ghost\Downloads\E-Ticaret\Web.Library\obj\Debug\Web.Library.csproj.CoreCompileInputs.cache
+C:\Users\ghost\Downloads\E-Ticaret\Web.Library\obj\Debug\Web.Library.dll
+C:\Users\ghost\Downloads\E-Ticaret\Web.Library\obj\Debug\Web.Library.pdb
